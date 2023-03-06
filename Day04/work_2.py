@@ -34,4 +34,5 @@ for i in range(1, for_number):
 least_common_multiple = (number1 * number2) / greatest_common_divisor
 
 # 输出
-print('数:%d和%d的最大公约数是%d，最小公倍数是:%d' % (number1, number2, greatest_common_divisor, least_common_multiple))
+print('数:%d和%d的最大公约数是%d，最小公倍数是:%d' %
+      (number1, number2, greatest_common_divisor, least_common_multiple))

@@ -31,8 +31,7 @@ while True:
     # 获取到点数
     number = number_1 + number_2
 
-    print('第%d次摇筛子，一筛子%d，二筛子%d，本次结果为:%d' % (count,number_1, number_2, number))
-
+    print('第%d次摇筛子，一筛子%d，二筛子%d，本次结果为:%d' % (count, number_1, number_2, number))
 
     # 第一次
     if count == 1:

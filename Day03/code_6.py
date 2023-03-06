@@ -18,7 +18,8 @@ if (edge_1 + edge_2 > edge_3) or (edge_1 + edge_3 > edge_2) or (edge_2 + edge_3 
     p = (edge_1 + edge_2 + edge_3) / 2
     area = p * (p - edge_1) * (p - edge_2) * (p - edge_3)
     # 输出结果
-    print('边:%.1f，%.1f，%.1f构成的三角形，周长为%.2f，面积为%.2f' % (edge_1, edge_2, edge_3, round, area))
+    print('边:%.1f，%.1f，%.1f构成的三角形，周长为%.2f，面积为%.2f' %
+          (edge_1, edge_2, edge_3, round, area))
 # 边不能构成三角形
 else:
     print("边不能构成三角形")

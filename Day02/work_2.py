@@ -16,4 +16,3 @@ area = math.pi * radius * radius
 
 # 结果输出
 print("半径为%d的圆，周长为%d，面积为%d" % (radius, round, area))
-

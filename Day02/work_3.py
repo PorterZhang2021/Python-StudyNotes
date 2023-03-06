@@ -22,4 +22,3 @@ flag_year_2 = (year % 400 == 0)
 # 结果输出
 print("%d是闰年吗？" % year)
 print('', flag_year_1 or flag_year_2)
-

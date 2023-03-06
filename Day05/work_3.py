@@ -17,7 +17,7 @@ for i in range(1, 101):
     # 拿2到其本身进行求余
 
     for j in range(2, int(math.sqrt(i)) + 1):
-    # for j in range(2, i):
+        # for j in range(2, i):
         # 如果整除那么退出循环
         if i % j == 0:
             flag = True
