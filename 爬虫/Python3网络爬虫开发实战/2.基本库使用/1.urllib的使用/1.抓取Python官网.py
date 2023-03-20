@@ -11,5 +11,5 @@ print(type(response))
 print(response.status)
 # 头部信息 响应的头信息
 print(response.getheaders())
-# 头部信息中服务信息 响应头中的Serer值 服务器利用Nginx搭建
+# 头部信息中服务信息 响应头中的Server值 服务器利用Nginx搭建
 print(response.getheader('Server'))
