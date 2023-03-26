@@ -1,12 +1,12 @@
 from urllib.error import URLError
 from urllib.request import ProxyHandler, build_opener
 
-# 为什么会遭到拒绝呢？
+# 为什么会遭到拒绝呢？ - 这里可能是一个错误的本地代理请求
 
 # 本地搭建http代理
 proxy_handler = ProxyHandler({
-    'http': 'http://127.0.0.1:8080',
-    'https': 'https://127.0.0.1:8080'
+    'http': 'http://192.168.3.47:8080',
+    'https': 'https://192.168.3.47:8080'
 })
 # 利用代理构建opener
 opener = build_opener(proxy_handler)
