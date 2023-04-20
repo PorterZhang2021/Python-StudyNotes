@@ -2,7 +2,17 @@
 
   此部分在原先是最基本的Python-100-Days-StudyNotes的学习库，但是后面发现学习的东西越来越多了，因此这里就将库的内容进行了一次新的调整，所以里面有了三个相关的主体学习内容，后续随着Git学习的深入可能这个库会越来越大，到后面可能仅仅只变成一个合并的内容库。
 
-[toc]
+- [Python-StudyNotes](#python-studynotes)
+- [Python-100-Days-StudyNots](#python-100-days-studynots)
+  - [基础篇 - 完成](#基础篇---完成)
+- [爬虫篇](#爬虫篇)
+  - [Learn\_python3\_Spider - 已抛弃](#learn_python3_spider---已抛弃)
+  - [Python3网络爬虫开发实战 - 崔庆才](#python3网络爬虫开发实战---崔庆才)
+    - [爬虫基础 - 未完成](#爬虫基础---未完成)
+    - [基本库的使用 - 已完成](#基本库的使用---已完成)
+    - [网页数据的解析提取 - 未完成](#网页数据的解析提取---未完成)
+- [Python爬虫与核心实战](#python爬虫与核心实战)
+
 
 # Python-100-Days-StudyNots
 
