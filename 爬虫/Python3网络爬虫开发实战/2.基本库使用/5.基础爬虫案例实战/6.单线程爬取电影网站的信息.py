@@ -22,7 +22,13 @@ TOTAL_PAGE = 10
 RESULTS_DIR = 'results'
 # 存在用不存在就构建
 exists(RESULTS_DIR) or makedirs(RESULTS_DIR)
-
+# 本机代理
+## set proxy
+# socks.set_default_proxy(socks.SOCKS5, '127.0.0.1', 10808)
+# socket.socket = socks.socksocket
+proxies = {
+    'https':'127.0.0.1:10809'
+}
 
 def scrape_page(url):
     """
@@ -35,7 +41,7 @@ def scrape_page(url):
     # 异常捕获操作
     try:
         # 获取请求响应
-        response = requests.get(url)
+        response = requests.get(url, proxies=proxies)
         # 如果状态码正确
         if response.status_code == 200:
             # 输出响应后的页面即抓取到的页面

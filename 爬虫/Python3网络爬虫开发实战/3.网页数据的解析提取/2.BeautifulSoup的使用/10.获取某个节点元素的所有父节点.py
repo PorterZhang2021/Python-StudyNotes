@@ -6,6 +6,8 @@ html = """
                 <span>Elsie</span>
             </a>
         </p>
+    </body>
+</html>
 """
 
 from bs4 import BeautifulSoup
