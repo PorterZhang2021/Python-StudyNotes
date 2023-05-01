@@ -3,9 +3,12 @@ from selenium.webdriver.common.by import By
 import time
 
 browser = webdriver.Chrome()
+print(type(browser))
 browser.get('https://www.taobao.com')
 input= browser.find_element(By.ID, 'q')
+print(type(input))
 input.send_keys('iPhone')
+
 time.sleep(10)
 input.clear()
 input.send_keys('iPad')
