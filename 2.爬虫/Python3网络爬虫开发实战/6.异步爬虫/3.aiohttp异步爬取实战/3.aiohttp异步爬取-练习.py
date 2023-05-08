@@ -30,7 +30,7 @@ MONGO_CONNECTION_STRING = 'mongodb://localhost:27017'
 MONGO_DB = 'spiders'
 MONGO_COLLECTION = 'books'
 
-# 建立异步通行量
+# 建立异步通信量
 semaphore = asyncio.Semaphore(CONCURRENCY)
 session = None
 
